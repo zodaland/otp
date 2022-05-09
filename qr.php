@@ -2,7 +2,7 @@
     date_default_timezone_set('Asia/Seoul');
 
     include "./lib/ga.php";
-	include "./config/config.php";
+    include "./config/config.php";
 
     $ga = new PHPGangsta_googleAuthenticator();
 
